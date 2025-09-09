@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.1.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Lyco-Launcher",
+    "preductname": "Lyco Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Minecraft Privée de Lyco",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Private Lyco",
+        "email": "admin@lyco.social",
+        "url": "https://github.com/wlyco"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://lyco.social/launcher/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://images-ext-1.discordapp.net/external/6gUkGskjOw-gpijKAKL8sq0Bxla65xic9N689-60gwM/https/cdn-longterm.mee6.xyz/plugins/reaction_roles/images/805220138550558740/43f730c497f2e2230abfac81dcc1ca0c6bbf764b7fb9571523a4b5b6bdcf7d1e.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/wlyco/Lyco-Launcher.git"
     }
 }
