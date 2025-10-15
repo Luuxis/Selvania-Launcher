@@ -17,6 +17,8 @@
 </p>
 
 ---
+📝 Licence : Luuxis License v1.0 (voir fichier LICENSE pour les détails en FR/EN)
+---
 ### **<ins><p align="center">Conditions d'utilisation:</p>**
 - Pour utiliser le code vous devez faire un fork du projet.
 - Pour utiliser le code votre code doit tout le temps être public.
