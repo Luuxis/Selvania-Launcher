@@ -2,7 +2,7 @@
     "name": "Selvania-Launcher",
     "preductname": "Selvania Launcher",
     "version": "2.1.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "Launcher Minecraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Inc.",
