@@ -1,8 +1,8 @@
 {
-    "name": "Zone-Atlas",
-    "preductname": "Zone-Atlas",
+    "name": "Blood Craft",
+    "preductname": "Blood-Craft",
     "version": "1.0.3",
-    "description": "Launcher Mincraft pour le serveur Zone-Atlas",
+    "description": "Launcher Mincraft pour le serveur Blood SMP",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Lionsauvage, Alphamax, Inc.",
