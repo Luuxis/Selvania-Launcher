@@ -92,7 +92,7 @@ class Launcher {
         if (!configClient) {
             await this.db.createData('configClient', {
                 account_selected: null,
-                instance_selct: null,
+                instance_select: null,
                 java_config: {
                     java_path: null,
                     java_memory: {
