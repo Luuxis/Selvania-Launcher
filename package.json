@@ -1,7 +1,7 @@
 {
     "name": "Blood Craft",
     "preductname": "Blood-Craft",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Launcher Mincraft pour le serveur Blood SMP",
     "main": "src/app.js",
     "author": {
