@@ -168,10 +168,10 @@
 .social-tab {
     position: absolute;
     display: flex;
-    bottom: 0;
+    top: 1rem;
     right: 0;
     width: 15%;
-    height: calc(80% - 1rem);
+    height: calc(80%);
     justify-content: center;
     margin-bottom: 1rem;
 }
@@ -375,4 +375,8 @@
 
 .active-instance {
     background: var(--element-color);
+}
+iframe{
+    width: 90px;
+    height: 70%;
 }
