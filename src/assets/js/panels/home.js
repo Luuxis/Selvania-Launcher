@@ -93,13 +93,21 @@ class Home {
     }
 
     socialLick() {
-        let socials = document.querySelectorAll('.social-block')
-
-        socials.forEach(social => {
-            social.addEventListener('click', e => {
-                shell.openExternal(e.target.dataset.url)
+        document.querySelectorAll('.social-block').forEach(e => {
+            e.addEventListener('click', () => {
+                const rawUrl = e.dataset.url;
+                try {
+                    const parsedUrl = new URL(rawUrl);
+                    if (parsedUrl.protocol === 'https:') {
+                        shell.openExternal(parsedUrl.href);
+                    } else {
+                        console.error(`Protocole non autorisé`);
+                    }
+                } catch (e) {
+                    console.error("URL invalide ou malformée");
+                }
             })
-        });
+        })
     }
 
     async instancesSelect() {
