@@ -93,13 +93,13 @@ class Home {
     }
 
     socialLick() {
-        let socials = document.querySelectorAll('.social-block')
-
-        socials.forEach(social => {
-            social.addEventListener('click', e => {
-                shell.openExternal(e.target.dataset.url)
+        document.querySelectorAll('.social-block').forEach(e => {
+            e.addEventListener('click', () => {
+                const url = e.dataset.url;
+                if ('https:' !== new URL(url).protocol) return;
+                shell.openExternal(url)
             })
-        });
+        })
     }
 
     async instancesSelect() {
